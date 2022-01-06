@@ -1,0 +1,41 @@
+.register-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.my-shape{
+    position: absolute;
+    left: auto;
+    top: 40%;
+    right: -45%;
+    bottom: auto;
+    display: block;
+    width: 700px;
+    height: 700px;
+    border-radius: 94px;
+    background-color: #f2faff;
+    -webkit-transform: rotate(-23deg);
+    -ms-transform: rotate(-23deg);
+    transform: rotate(-22deg);
+    z-index: -1;
+}
+.my-shapes{
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 45%;
+    bottom: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 94px;
+    background-color: #f2faff;
+    -webkit-transform: rotate(-23deg);
+    -ms-transform: rotate(-23deg);
+    transform: rotate(-33deg);
+    z-index: -1;
+}

@@ -1,0 +1,41 @@
+.login-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+ .login-personal .design{
+    position: absolute;
+      left: auto;
+      top: -14%;
+      right: 41%;
+      bottom: auto;
+      display: block;
+      width: 100%;
+      height: 150%;
+      border-radius: 94px;
+      background-color: #f2faff;
+      -webkit-transform: rotate(-23deg);
+      -ms-transform: rotate(-23deg);
+      transform: rotate(-33deg);
+      z-index: -1;
+}
+.personal-card{
+    font-size: 22px;
+}
+
+@media (max-width:578px){
+    .login-personal{
+        /* padding: 0px; */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        overflow-y: auto;
+    }
+}

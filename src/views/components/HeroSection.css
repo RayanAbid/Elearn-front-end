@@ -1,0 +1,66 @@
+@import "./global.css";
+
+.hero-container{
+  position: relative;
+  top: 60px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  height: calc(100vh - 60px);
+  background: url("https://images.pexels.com/photos/7034695/pexels-photo-7034695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-size: cover;
+  background-position: top;
+}
+.caption{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  bottom: 50px;
+  padding: 20px;
+  color: var(--content-color2);
+}
+.caption h1{
+  margin-bottom: 10px;
+}
+.caption p{
+  color: var(--content-color2);
+}
+.btns{
+  max-width: 100%;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  background-color: var(--btn-background);
+  color: var(--content-color2);
+  font-weight: 600;
+}
+
+/* .hrosec-shape {
+  position: absolute;
+  left: auto;
+  top: -14%;
+  right: 41%;
+  bottom: auto;
+  display: block;
+  width: 100%;
+  height: 150%;
+  border-radius: 94px;
+  background-color: #e3f0f7;
+  -webkit-transform: rotate(-23deg);
+  -ms-transform: rotate(-23deg);
+  transform: rotate(-33deg);
+  z-index: -1;
+} */
+@media (max-width:568px){
+  .hero-container{
+    height: calc(100vh - 60px);
+    background-position: bottom;
+  }
+}

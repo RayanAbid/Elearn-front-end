@@ -1,0 +1,16 @@
+:root{
+    --page-background:#fff;
+    --btn-background: #2eb85c;
+    --content-color: black;
+    --content-color2:#fff;
+    --nav-hover: #248645;
+    --fotter-nav: #99D6D4;
+    --footer-back:#99D6D4;
+    --priceCard-border: lightgrey;
+    --shape-background: #99D6D4;
+    --answer-text:green;
+    --black:black;
+    --nextbtn-hover:rgb(125, 192, 223);
+    --hero-caption:rgba(109, 128, 146,0.5);
+
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--
+* CoreUI Free - React.js Admin Template
+* @version v3.2.0
+* @link https://coreui.io/pro/react/
+* Copyright (c) 2020 creativeLabs Łukasz Holeczek
+* License MIT
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Łukasz Holeczek" />
+
+    <!-- new links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
+
+    <!-- old links -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="keyword"
+      content="Bootstrap,Admin,Template,Open,Source,CSS,SCSS,HTML,RWD,Dashboard,React"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>E Knowledge hunt</title>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <style>
+      body {
+        overflow-x: hidden;
+        background-color: #fff;
+      }
+
+      /* 
+    body .banner-bg {
+      background-image: url(img/9-SCENE.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    } */
+
+      .btn {
+        padding: 13.5px 36px;
+        font-weight: 700;
+        border-radius: 30px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      .btn-success {
+        background-color: #bbce3c;
+        border-color: #bbce3c;
+      }
+
+      /* .social-icons a {
+      margin-right: 15px;
+      color: #999;
+    }
+
+    .social-icons a:hover {
+      color: #333;
+    } */
+
+      .hero-shape {
+        position: absolute;
+        left: auto;
+        top: -14%;
+        right: 41%;
+        bottom: auto;
+        display: block;
+        width: 100%;
+        height: 150%;
+        border-radius: 94px;
+        background-color: #e3f0f7;
+        -webkit-transform: rotate(-23deg);
+        -ms-transform: rotate(-23deg);
+        transform: rotate(-33deg);
+        z-index: -1;
+      }
+
+      .bg-light {
+        background-color: #000 !important;
+      }
+
+      .nb i {
+        font-size: 30px;
+        color: #fff;
+      }
+
+      .right-shape.home {
+        top: -18%;
+      }
+
+      .right-shape {
+        overflow-x: hidden;
+        position: absolute;
+        left: 57%;
+        top: 31%;
+        width: 80%;
+        height: 90%;
+        border-radius: 94px;
+        background-color: #e3f0f7;
+        -webkit-transform: rotate(-21deg);
+        -ms-transform: rotate(-21deg);
+        transform: rotate(-21deg);
+        z-index: -5;
+      }
+
+      .page-wrape {
+        overflow: hidden;
+      }
+
+      .owl-carousel .owl-item img {
+        display: inline-block !important;
+        width: auto;
+      }
+
+      .carousel-caption h5 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .dd2 {
+        width: 230px;
+        height: 230px;
+      }
+
+      .bg-one {
+        background: #fff5e8;
+        background-size: contain;
+      }
+
+      .bg-two {
+        background: #fff5e8;
+        /* background-size: contain; */
+      }
+
+      @media (max-width: 768px) {
+        .carousel-caption h5 {
+          font-size: 20px;
+        }
+
+        .hero-shape {
+          height: 50%;
+        }
+
+        .carousel-caption p {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+
+    <!-- new templete bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+      $(".testimonials").owlCarousel({
+        loop: false,
+        margin: 20,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          800: {
+            items: 2,
+          },
+        },
+      });
+      $(".new-slider").owlCarousel({
+        loop: false,
+        margin: 20,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          750: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

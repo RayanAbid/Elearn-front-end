@@ -1,0 +1,36 @@
+@import "./global.css";
+
+.container{
+    max-width: 100% !important;
+    position: relative;
+    top: 60px;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    padding: 2rem;
+    color: var(--content-color);
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-fluid{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid var(--priceCard-border);
+}
+.btns1{
+    background-color: var(--btn-background);
+    text-decoration: none;
+}
+.btns1:hover{
+    text-decoration: none;
+    background-color: var(--nav-hover);
+}
+@media (max-width:568px){
+    .container{
+        width: 100%;
+    }
+}
